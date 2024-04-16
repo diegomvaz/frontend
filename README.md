@@ -64,6 +64,9 @@ A estrutura de pastas segue o seguinte layout
       <li><b><i>pedidos</i></b>: onde serão renderizados o formulário e a tabela</li>
     </ul>
     <p>
+  <li><b>Routes</b></li>
+    Aqui é gerado o componente que faz a gestão de rotas da aplicação
+    <p>
   <li><b>Shared</b>
     Esta pasta possui 2 arquivos:
     <ul>
