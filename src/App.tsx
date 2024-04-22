@@ -1,14 +1,26 @@
 
 import './App.css'
-import Pedidos from './pages/pedidos'
-import Login from './pages/login'
+import Pedidos from "./pages/pedidos";
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import Login from "./pages/login";
+
+const router = createBrowserRouter([
+  {
+    element: <Login />,
+    path: ''
+  },
+  {
+    element: <Pedidos />,
+    path: 'pedidos'
+  }
+])
+
 
 function App() {
 
   return (
     <>
-      {/* <Login />s */}
-      <Pedidos />
+      <RouterProvider router={router} />
     </>
   )
 }
